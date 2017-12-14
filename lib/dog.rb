@@ -9,7 +9,6 @@ class Dog
 
   def self.all
     dogs = @@all.each {|dog| puts dog.name}
-    # binding.pry
   end
 
   def initialize(name)
